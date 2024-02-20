@@ -1,0 +1,1 @@
+This is the project that I build for my post-graduate. It is the marketplace for the electronic device where user can list their used product in the app. I have used kotlin and firebase for database and authentication
