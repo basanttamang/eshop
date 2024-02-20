@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_register_graph"
+    app:startDestination="@id/introductionFragement">
+
+    <fragment
+        android:id="@+id/introductionFragement"
+        android:name="com.basanttamang.e_shop.fragments.IntroductionFragment"
+        android:label="IntroductionFragement"
+        tools:layout="@layout/fragment_introduction"
+        >
+        <action
+            android:id="@+id/action_introductionFragement_to_loginFragement"
+            app:destination="@id/loginFragement" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragement"
+        android:name="com.basanttamang.e_shop.fragments.LoginFragment"
+        android:label="LoginFragement"
+        tools:layout="@layout/fragment_login"
+        >
+        <action
+            android:id="@+id/action_loginFragement_to_registerFragement"
+            app:destination="@id/registerFragement"
+            app:popUpTo="@id/introductionFragement" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragement"
+        android:name="com.basanttamang.e_shop.fragments.RegisterFragement"
+        android:label="RegisterFragement"
+        tools:layout="@layout/fragment_register"
+        >
+        <action
+            android:id="@+id/action_registerFragement_to_loginFragement"
+            app:destination="@id/loginFragement"
+            app:popUpTo="@id/introductionFragement" />
+    </fragment>
+</navigation>

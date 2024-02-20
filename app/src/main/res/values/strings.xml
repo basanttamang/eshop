@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">E-Shop</string>
+    <string name="select">Select Category</string>
+    <string-array name="categoryList">
+        <item>Smartphone</item>
+        <item>Laptop</item>
+    </string-array>
+</resources>

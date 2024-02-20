@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "566301395022",
+    "project_id": "e-shop-3a8fb",
+    "storage_bucket": "e-shop-3a8fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566301395022:android:a870a8d872c76eb1cf9b1f",
+        "android_client_info": {
+          "package_name": "com.basanttamang.e_shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjFZqvV1W_64gDJae35JQkPNnkGZvuuzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
